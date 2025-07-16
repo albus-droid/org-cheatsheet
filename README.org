@@ -1,0 +1,17 @@
+**** Instructions
+1. Put the file in the 'load-path' of your emacs
+
+#+BEGIN_SRC emacs-lisp
+C-h v load-path ;; You can view the load-path like this
+#+END_SRC
+
+2. Modify `init.el` or `config.el` if you are using Doom emacs
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'load-path "file_path")
+(require 'org-cheatsheet)
+#+END_SRC
+
+3. Just open it while you are in emacs
+#+BEGIN_SRC emacs-lisp
+M-x org-cheatsheet-show
+#+END_SRC
